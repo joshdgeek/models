@@ -80,6 +80,7 @@ body{
     width: 100vw;
     position: relative;
     background-color: rgba(14, 12, 7, 0.651);
+    z-index: 2;
 }
 .first::before{
     position: absolute;
