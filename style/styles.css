@@ -80,8 +80,7 @@ body{
     width: 100vw;
     position: relative;
     background-color: rgba(14, 12, 7, 0.651);
-    z-index: 2;
-}
+   
 .first::before{
     position: absolute;
     content: "";
@@ -89,7 +88,9 @@ body{
     background-image: url('../public/pix/ngofb.jpg');
     background-size:cover;
     background-repeat: no-repeat;
-    opacity: .7;
+    opacity: .7; 
+    z-index: 2;
+}
 }
 
 .content-flex{
