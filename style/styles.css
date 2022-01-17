@@ -80,7 +80,7 @@ body{
     width: 100vw;
     position: relative;
     background-color: rgba(14, 12, 7, 0.651);
-   
+}
 .first::before{
     position: absolute;
     content: "";
@@ -91,7 +91,7 @@ body{
     opacity: .7; 
     z-index: 2;
 }
-}
+
 
 .content-flex{
     position: relative;
